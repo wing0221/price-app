@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "your-watch-command-here"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.58",
+        "@types/react-dom": "^18.2.19",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "sass": "^1.71.1",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "^4.2.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
