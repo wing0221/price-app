@@ -8,7 +8,7 @@
 
         {{-- react に変更があったとき自動で --}}
         @viteReactRefresh
-        @vite(['resources/sass/app.scss', 'resources/ts/index.tsx'])
+        @vite(['resources/css/app.scss', 'resources/ts/index.tsx'])
 
     </head>
 
