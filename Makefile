@@ -5,3 +5,9 @@ up:
 
 down:
 	$(SAIL_PATH) down
+
+dev-front:
+	$(SAIL_PATH) npm run dev
+
+migrate:
+	$(SAIL_PATH) php artisan migrate
